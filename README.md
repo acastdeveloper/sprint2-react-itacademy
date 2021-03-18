@@ -16,9 +16,9 @@ Partint del concepte mobile first, crea el disseny de la teva web. Aquest projec
 - La capçalera ha de tenir un **navbar + logo i uns enllaços per a fer login/registre**. Quan el navbar estigui en versió botó hamburguesa, les opcions de login/registre han de quedar visibles i independents.
 - Al clicar sobre **login i registre**, s’ha d’obrir una finestra **modal** per accedir-hi. Evidentment han de tenir diferents dades.
 - La pàgina Home Page ha de tenir un **slider** de mínim 4 imatges.
-- Usar el **grid system de bootstrap** per a fer que la teva web sigui responsive.  
+- Usar el **grid system de bootstrap** per a fer que la teva web sigui responsive.
 
-[Consulta aquest exemple com a mostra](http://preview.themeforest.net/item/book-store-library-online-book-store/full_screen_preview/21369136?ref=Digital_Square&clickthrough_id=1420858803&redirect_back=true)  
+[Consulta aquest exemple com a mostra](http://preview.themeforest.net/item/book-store-library-online-book-store/full_screen_preview/21369136?ref=Digital_Square&clickthrough_id=1420858803&redirect_back=true)
 
 ## Nivell 2
 
@@ -26,7 +26,7 @@ Partint del concepte mobile first, crea el disseny de la teva web. Aquest projec
 
 En aquest exercici et demanem que personalitzis completament la paleta de colors. Redefineix completament les classes de color
 
-![Classes de color Bootstrap](J:\laragon\www\sprint02\readme\Paleta%20de%20colors%20Bootstrap.png)  
+![Classes de color Bootstrap](./readme/Paleta%20de%20colors%20Bootstrap.png)
 
 [Més informació](https://getbootstrap.com/docs/4.0/getting-started/theming/#theme-colors)
 
@@ -36,11 +36,9 @@ En aquest exercici et demanem que personalitzis completament la paleta de colors
 
 Saps treballar amb plantilles de Bootstrap? Ara et demanem que adaptis el teu projecte a una plantilla específica de Bootstrap.
 
-El següent vídeo t'explica com treballar amb les plantilles gratuïtes de Bootstrap:  
+El següent vídeo t'explica com treballar amb les plantilles gratuïtes de Bootstrap:
 
-<div> 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/682snbPdMU4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+[![](http://img.youtube.com/vi/682snbPdMU4/0.jpg)](http://www.youtube.com/watch?v=682snbPdMU4 "")
 
 ## Recordatoris
 
