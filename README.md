@@ -26,7 +26,7 @@ Partint del concepte mobile first, crea el disseny de la teva web. Aquest projec
 
 En aquest exercici et demanem que personalitzis completament la paleta de colors. Redefineix completament les classes de color
 
-![Classes de color Bootstrap](https://itacademy.barcelonactiva.cat/pluginfile.php/5004/mod_assign/intro/Paleta%20de%20colors%20Bootstrap.png)  
+![Classes de color Bootstrap](J:\laragon\www\sprint02\readme\Paleta%20de%20colors%20Bootstrap.png)  
 
 [Més informació](https://getbootstrap.com/docs/4.0/getting-started/theming/#theme-colors)
 
@@ -38,7 +38,9 @@ Saps treballar amb plantilles de Bootstrap? Ara et demanem que adaptis el teu pr
 
 El següent vídeo t'explica com treballar amb les plantilles gratuïtes de Bootstrap:  
 
-Play Video
+<div> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/682snbPdMU4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Recordatoris
 
