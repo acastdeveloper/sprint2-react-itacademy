@@ -32,10 +32,11 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: Oswald, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-family-monospace: "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --font-family-serif: "Roboto Slab", Georgia, "Times New Roman", Times, serif;
-  --font-family-mini: "Nunito Sans", Geneva, sans-serif;
+  --font-family-sans-serif: Oswald, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-caption: "PT Serif Caption", serif;
+  --font-family-caption-sans: "Nunito Sans", "PT Sans Caption", Geneva, sans-serif;
+  --font-family-monospace: "Fira Code", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -10061,11 +10062,11 @@ body {
 #bighero {
   font-size: 0.9rem;
   background: linear-gradient(-45deg, #ee775233, #e73c7e33, #23a6d533, #23d5ab33), var(--dark);
-  background-size: 400% 400%;
-  -webkit-animation: gradient 20s ease infinite;
-  animation: gradient 20s ease infinite;
-  filter: saturate(180%);
-  -webkit-filter: saturate(180%);
+  background-size: 1000% 1000%;
+  -webkit-animation: gradient 50s ease infinite;
+  animation: gradient 50s ease infinite;
+  filter: saturate(130%);
+  -webkit-filter: saturate(130%);
 }
 
 @-webkit-keyframes gradient {
@@ -10105,8 +10106,9 @@ body {
 }
 
 #titol .migues > li {
-  font-family: var(--font-family-mini) !important;
+  font-family: var(--font-family-caption-sans) !important;
   font-size: 0.6rem;
+  font-weight: lighter;
   letter-spacing: 0.1rem;
   padding: 0 0;
   margin: 0;

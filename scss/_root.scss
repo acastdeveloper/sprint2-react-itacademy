@@ -14,8 +14,11 @@
 
   // Use `inspect` for lists so that quoted items keep the quotes.
   // See https://github.com/sass/sass/issues/2383#issuecomment-336349172
-  --font-family-sans-serif: #{inspect($font-family-sans-serif)};
-  --font-family-monospace: #{inspect($font-family-monospace)};
   --font-family-serif: #{inspect($font-family-serif)};
-  --font-family-mini: #{inspect($font-family-mini)};
+  --font-family-sans-serif: #{inspect($font-family-sans-serif)};
+
+  --font-family-caption: #{inspect($font-family-caption)};
+  --font-family-caption-sans: #{inspect($font-family-caption-sans)};
+
+  --font-family-monospace: #{inspect($font-family-monospace)};
 }
