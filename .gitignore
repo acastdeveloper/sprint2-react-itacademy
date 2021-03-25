@@ -3,6 +3,10 @@
 TRASH/
 IGNORAR/
 
+# Visual Studio Code Workspace #
+#############
+*.code-workspace
+
 # Compiled source #
 ###################
 *.com
