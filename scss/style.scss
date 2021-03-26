@@ -111,7 +111,7 @@ body {
 
 
 
-#cap {
+#cap, .section__dark {
   background: linear-gradient(#343a4012, var(--dark)),
     linear-gradient(90deg, var(--dark), #343a4099, var(--dark)),
     url("../img/vecto-bg.min.svg");
