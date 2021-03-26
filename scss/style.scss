@@ -1,317 +1,375 @@
 @import "../scss/bootstrap";
 
-
 * {
-    /* border: 1px dashed grey;; */
-    box-sizing: border-box;
-  }
+  /* border: 1px dashed grey;; */
+  box-sizing: border-box;
+}
 
-  body {
-    min-height: 100vh;
-    font-family: "Roboto Slab", serif;
-    font-weight: 400;
-    /* background: linear-gradient(var(--light), var(--white)); */
-    background: var(--light);
-  }
+body {
+  min-height: 100vh;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  /* background: linear-gradient(var(--light), var(--white)); */
+  background: var(--light);
+}
 
-  /** Classes personalitzades que haurien d'existir a bootstrap */
-  .text-shadow {
-    text-shadow: var(--dark) 1px 1px 2px;
-  }
+/** Classes personalitzades que haurien d'existir a bootstrap */
+.text-shadow {
+  text-shadow: var(--dark) 1px 1px 2px;
+}
 
-  .text-center {
-    text-align: center;
-  }
+.text-center {
+  text-align: center;
+}
 
-  /** Final de classes personalitzades */
-  .fs-06rem {
-    font-size: 0.6rem;
-  }
+/** Final de classes personalitzades */
+.fs-06rem {
+  font-size: 0.6rem;
+}
 
-  .fs-07rem {
-    font-size: 0.7rem;
-  }
+.fs-07rem {
+  font-size: 0.7rem;
+}
 
-  .fs-08rem {
-    font-size: 0.8rem;
-  }
+.fs-08rem {
+  font-size: 0.8rem;
+}
 
-  .fs-09rem {
-    font-size: 0.9rem;
-  }
+.fs-09rem {
+  font-size: 0.9rem;
+}
 
-  .fs-1rem {
-    font-size: 1rem;
-  }
+.fs-1rem {
+  font-size: 1rem;
+}
 
-  .fs-11rem {
-    font-size: 1.2rem;
-  }
+.fs-11rem {
+  font-size: 1.2rem;
+}
 
-  .fs-15rem {
-    font-size: 1.5rem;
-  }
+.fs-15rem {
+  font-size: 1.5rem;
+}
 
-  .fs-17rem {
-    font-size: 1.7rem;
-  }
+.fs-17rem {
+  font-size: 1.7rem;
+}
 
-  .fs-2rem {
-    font-size: 2rem;
-  }
+.fs-2rem {
+  font-size: 2rem;
+}
 
-  .ff-sans {
-    font-family: var(--font-family-sans-serif);
-  }
+.ff-sans {
+  font-family: var(--font-family-sans-serif);
+}
 
-  #cap {
-    background: linear-gradient(#343a4012, var(--dark)), linear-gradient(90deg, var(--dark), #343a4099, var(--dark)), url("../img/vecto-bg.min.svg");
-  }
 
-  .navbar-brand,
-  .navbar-brand * {
-    font-family: Oswald, sans-serif;
-  }
+.bg-blue
+{
+  background-color:$blue;
+}
 
-  #brand-h1 {
-    font-family: Oswald, sans-serif;
-    font-size: 1.8rem;
-    line-height: 1.6rem;
-    font-weight: 100;
-    margin: 0;
-    padding: 0;
+.bg-indigo {
+  background-color:$indigo;
+}
+
+.bg-purple
+{
+  background-color:$purple;
+}
+
+.bg-pink {
+  background-color:$pink;
+}
+
+.bg-red
+{
+  background-color:$red;
+}
+
+.bg-orange {
+  background-color:$orange;
+}
+
+.bg-yellow
+{
+  background-color:$yellow;
+}
+
+.bg-green {
+  background-color:$green;
+}
+
+.bg-teal
+{
+  background-color:$teal;
+}
+
+.bg-cyan {
+  background-color:$cyan;
+}
+
+
+
+#cap {
+  background: linear-gradient(#343a4012, var(--dark)),
+    linear-gradient(90deg, var(--dark), #343a4099, var(--dark)),
+    url("../img/vecto-bg.min.svg");
+}
+
+.navbar-brand,
+.navbar-brand * {
+  font-family:var(--font-family-sans-serif);
+}
+
+#brand-h1 {
+  font-family:var(--font-family-sans-serif);
+  font-size: 1.8rem;
+  line-height: 1.6rem;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#brand-logo {
+  letter-spacing: 0.1rem;
+}
+
+#imago {
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+}
+
+#brand-tag {
+  font-size: 0.8rem;
+  font-weight: 200;
+  letter-spacing: 0.1rem;
+  color: #ccc;
+}
+
+#controladora .nav-item {
+  padding: 0 0.5rem;
+}
+
+#controladora .nav-item > a {
+  font-family:var(--font-family-sans-serif);
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  padding: 0.2rem 0rem 0.1rem 0rem;
+  margin-bottom: 0.2rem;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#loginarea {
+  font-size: 0.9rem;
+}
+
+#loginarea > button {
+  font-size: small;
+}
+
+#bighero {
+  position: relative;
+  z-index: -1;
+  font-size: 0.9rem;
+  background: linear-gradient(
+      -45deg,
+      #ee775233,
+      #e73c7e33,
+      #23a6d533,
+      #23d5ab33
+    ),
+    var(--dark);
+  background-size: 1000% 1000%;
+  -webkit-animation: gradient 50s ease infinite;
+  animation: gradient 50s ease infinite;
+  filter: saturate(130%);
+  -webkit-filter: saturate(130%);
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+    -webkit-filter: saturate(75%);
+    filter: saturate(75%);
+  }
+  50% {
+    background-position: 100% 50%;
+    -webkit-filter: saturate(250%);
+    filter: saturate(250%);
+  }
+  100% {
+    background-position: 0% 50%;
+    -webkit-filter: saturate(75%);
+    filter: saturate(75%);
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+#bighero h1 {
+  letter-spacing: 0.2rem;
+  font-size: 5rem;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+}
+
+#titol .migues {
+  font-family: var(--font-family-sans-serif) !important;
+  font-size: 0.6rem;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  padding: 0 0;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#titol .migues > li:before {
+  color: var(--light);
+  // padding: 0 0.4rem 0 .4rem;
+}
+
+.sectitol__h2 {
+  font-size: 3.3rem;
+  font-family: var(--font-family-sans-serif);
+  font-weight: 100;
+  letter-spacing: 0.2rem;
+}
+
+.sectitol__h3 {
+  font-size: 2.5rem;
+  font-family: var(--font-family-serif);
+  font-weight: 900;
+}
+
+.sectitol__h4 {
+  font-size: 3.5rem;
+  font-family: var(--font-family-sans-serif);
+  font-weight: 200;
+}
+
+.sectitol__h5 {
+  font-size: 2.5rem;
+  font-family: var(--font-family-serif);
+  font-weight: 900;
+}
+
+.sectitol__h6 {
+  font-size: 1.75rem;
+  font-family: var(--font-family-sans-serif);
+  font-weight: 700;
+}
+
+footer a {
+  color: var(--secondary);
+}
+
+footer a:hover {
+  color: var(--white);
+}
+
+.footer__copy {
+  text-align: left;
+}
+
+#me {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+  background: url("../img/baixa.png");
+  background-size: cover;
+}
+
+@media screen and (min-width: 992px) {
+  #lanav {
+    height: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body > footer {
+    background: url("../img/silouette.png");
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 992px) {
+  #lanav {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
   }
 
   #brand-logo {
-    letter-spacing: 0.1rem;
-  }
-
-  #imago {
-    font-weight: lighter;
-    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
   #brand-tag {
-    font-size: 0.8rem;
-    font-weight: 200;
-    letter-spacing: 0.1rem;
-    color: #ccc;
+    font-size: 1.5rem;
   }
 
-  #controladora .nav-item {
-    padding: 0 0.5rem;
-  }
-
-  #controladora .nav-item > a {
-    font-family: "Oswald", sans-serif;
-    font-size: 0.9rem;
-    font-weight: 300;
-    letter-spacing: 0.1rem;
-    padding: 0.2rem 0rem 0.1rem 0rem;
-    margin-bottom: 0.2rem;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
-  }
-
-  #loginarea {
-    font-size: 0.9rem;
-  }
-
-  #loginarea > button {
-    font-size: small;
-  }
-
-  #bighero {
-    font-size: 0.9rem;
-    background: linear-gradient(-45deg, #ee775233, #e73c7e33,  #23a6d533,  #23d5ab33), var(--dark);
-    background-size: 1000% 1000%;
-    -webkit-animation: gradient 50s ease infinite;
-    animation: gradient 50s ease infinite;
-    filter: saturate(130%);
-    -webkit-filter: saturate(130%);
-  }
-
-  @-webkit-keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-      -webkit-filter: saturate(75%);
-      filter: saturate(75%);
-    }
-    50% {
-      background-position: 100% 50%;
-      -webkit-filter: saturate(250%);
-      filter: saturate(250%);
-    }
-    100% {
-      background-position: 0% 50%;
-      -webkit-filter: saturate(75%);
-      filter: saturate(75%);
-    }
-  }
-  @keyframes gradient {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
   #bighero h1 {
-    letter-spacing: 0.2rem;
-    font-size: 5rem;
-    font-weight: 900;
-    padding: 0;
-    margin: 0;
-  }
-
-  #titol .migues > li {
-    font-family: var(--font-family-caption-sans) !important;
-    font-size: 0.6rem;
-    font-weight: lighter;
-    letter-spacing: 0.1rem;
-    padding: 0 0;
-    margin: 0;
-    text-transform: uppercase;
-  }
-
-  #titol .migues > li:before {
-    color: var(--light);
-    padding: 0 0.4rem;
+    font-size: 8vw;
   }
 
   .sectitol__h2 {
-    font-size: 3.3rem;
-    font-family: var(--font-family-sans-serif);
-    font-weight: 100;
-    letter-spacing: 0.2rem;
+    font-size: 10vw;
   }
 
-  .sectitol__h3 {
-    font-size: 2.5rem;
-    font-family: var(--font-family-serif);
-    font-weight: 900;
+  .container {
+    min-width: 100%;
   }
 
-  .sectitol__h4 {
-    font-size: 3.5rem;
-    font-family: var(--font-family-sans-serif);
-    font-weight: 200;
+  .container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  #brand-logo {
+    font-size: 3rem;
+    line-height: 3rem;
   }
 
-  .sectitol__h5 {
-    font-size: 2.5rem;
-    font-family: var(--font-family-serif);
-    font-weight: 900;
+  #brand-tag {
+    font: size 1rem;
+    line-height: 1rem;
   }
-
-  .sectitol__h6 {
-    font-size: 1.75rem;
-    font-family: var(--font-family-sans-serif);
-    font-weight: 700;
-  }
-
-  footer a {
-    color: var(--secondary);
-  }
-
-  footer a:hover {
-    color: var(--white);
-  }
-
+}
+@media screen and (max-width: 576px) {
   .footer__copy {
-    text-align: left;
+    text-align: center;
   }
 
-  #me {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    -webkit-filter: grayscale(50%);
-    filter: grayscale(50%);
-    background: url("../img/baixa.png");
-    background-size: cover;
+  #brand-logo {
+    font-size: 2rem;
+    line-height: 2rem;
   }
 
-  @media screen and (min-width: 992px) {
-    #lanav {
-      height: 70px;
-    }
+  #brand-tag {
+    font: size 0.9rem;
+    line-height: 1.3rem;
   }
-  @media screen and (min-width: 768px) {
-    body > footer {
-      background: url("../img/silouette.png");
-      background-size: contain;
-      background-position: right bottom;
-      background-repeat: no-repeat;
-    }
+
+  #loginarea {
+    padding: 2rem 0;
   }
-  @media screen and (max-width: 992px) {
-    #lanav {
-      height: -webkit-fit-content;
-      height: -moz-fit-content;
-      height: fit-content;
-    }
-
-    #brand-logo {
-      font-size: 2rem;
-      line-height: 2rem;
-    }
-
-    #brand-tag {
-      font-size: 1.5rem;
-    }
-
-    #bighero h1 {
-      font-size: 8vw;
-    }
-
-    .sectitol__h2 {
-      font-size: 10vw;
-    }
-
-    .container {
-      min-width: 100%;
-    }
-
-    .container-fluid {
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    #brand-logo {
-      font-size: 3rem;
-      line-height: 3rem;
-    }
-
-    #brand-tag {
-      font: size 1rem;
-      line-height: 1rem;
-    }
-  }
-  @media screen and (max-width: 576px) {
-    .footer__copy {
-      text-align: center;
-    }
-
-    #brand-logo {
-      font-size: 2rem;
-      line-height: 2rem;
-    }
-
-    #brand-tag {
-      font: size 0.9rem;
-      line-height: 1.3rem;
-    }
-
-    #loginarea {
-      padding: 2rem 0;
-    }
-  }
+}
