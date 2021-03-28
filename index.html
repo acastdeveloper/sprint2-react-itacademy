@@ -2,691 +2,396 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>{ac} alexander castelló / code & design & plus</title>
-    <meta name="description" content="resources">
-
-    <!-- BOOTSTRAP CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
-    <link async rel="preload" as="style" href="./css/bootstrap.min.css" onload="this.rel='stylesheet'">
-
-    <!-- GOOGLE FONTS AND PRELOADING STYLES AND FONTS FOR IMPROVE PERFORMANCE -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link async rel="preload" as="font" type="font/woff2"
-        href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" crossorigin="anonymous"
-        onload="this.rel='font'">
-    <link async rel="preload" as="font" type="font/woff2"
-        href="https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2"
-        crossorigin="anonymous" onload="this.rel='font'">
-    <link async rel="preload" as="font" type="font/woff2"
-        href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2" crossorigin="anonymous"
-        onload="this.rel='font'">
-    <link async rel="preload" as="font" type="font/woff2"
-        href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2"
-        crossorigin="anonymous" onload="this.rel='font'">
-    <link async rel="preload" as="font" type="font/woff2"
-        href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2"
-        crossorigin="anonymous" onload="this.rel='font'">
-    <link async rel="preload" as="style" href="./css/google-fonts-min.css" onload="this.rel='stylesheet'">
-
-    <!-- FONTAWESOME PRELOADING FONTS AND STYLESHEET -->
-    <link rel="preconnect" href="https://kit.fontawesome.com">
-    <link async rel="preload" as="font" type="font/woff2"
-        href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous"
-        onload="this.rel='font'">
-    <link async rel="preload" as="font" type="font/woff2"
-        href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" crossorigin="anonymous"
-        onload="this.rel='font'">
-    <link async rel="preload" as="style" type="text/css"
-        href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free.min.css?token=f5043cec08" crossorigin="anonymous"
-        onload="this.rel='stylesheet';">
-    <link async rel="preload" as="style" type="text/css"
-        href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-shims.min.css?token=f5043cec08"
-        crossorigin="anonymous" onload="this.rel='stylesheet';">
-    <link async rel="preload" as="style" type="text/css"
-        href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-font-face.min.css?token=f5043cec08"
-        crossorigin="anonymous" onload="this.rel='stylesheet';">
-
-    <!-- LINE AWESOME PRELOADING FONTS AND STYLE SHEET -->
-    <link async rel="preload" as="style"
-        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
-        crossorigin="anonymous" onload="this.rel='stylesheet';">
-
-    <!-- OWN STYLE SHEET, THAT INCLUDES BOOTSTRAP STYLES FROM SASS SYSTEM -->
-    <link rel="stylesheet" href="./css/style.css">
-    <style></style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>{ac} alexander castelló / code & design & plus</title>
+	<meta name="description" content="resources">
+	<link async rel="preload" as="style" href="./css/bootstrap.min.css" onload="this.rel='stylesheet'">
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link async rel="preload" as="font" type="font/woff2"
+		href="https://fonts.gstatic.com/s/oswald/v36/TK3iWkUHHAIjg752GT8G.woff2" crossorigin="anonymous"
+		onload="this.rel='font'">
+	<link async rel="preload" as="font" type="font/woff2"
+		href="https://fonts.gstatic.com/s/robotoslab/v13/BngbUXZYTXPIvIBgJJSb6s3BzlRRfKOFbvjojISmb2Rj.woff2"
+		crossorigin="anonymous" onload="this.rel='font'">
+	<link async rel="preload" as="font" type="font/woff2"
+		href="https://fonts.gstatic.com/s/nunitosans/v6/pe0qMImSLYBIv1o4X1M8cce9I9s.woff2" crossorigin="anonymous"
+		onload="this.rel='font'">
+	<link async rel="preload" as="font" type="font/woff2"
+		href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.118.woff2"
+		crossorigin="anonymous" onload="this.rel='font'">
+	<link async rel="preload" as="font" type="font/woff2"
+		href="https://fonts.gstatic.com/s/notosansjp/v28/-F62fjtqLzI2JPCgQBnw7HFow2oe2EcP5pp0erwTqsSWs9Jezazjcb4.119.woff2"
+		crossorigin="anonymous" onload="this.rel='font'">
+	<link async rel="preload" as="style" href="./css/google-fonts-min.css" onload="this.rel='stylesheet'">
+	<link rel="preconnect" href="https://kit.fontawesome.com">
+	<link async rel="preload" as="font" type="font/woff2"
+		href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-solid-900.woff2" crossorigin="anonymous"
+		onload="this.rel='font'">
+	<link async rel="preload" as="font" type="font/woff2"
+		href="https://ka-f.fontawesome.com/releases/v5.15.2/webfonts/free-fa-brands-400.woff2" crossorigin="anonymous"
+		onload="this.rel='font'">
+	<link async rel="preload" as="style" type="text/css"
+		href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free.min.css?token=f5043cec08" crossorigin="anonymous"
+		onload="this.rel='stylesheet';">
+	<link async rel="preload" as="style" type="text/css"
+		href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-shims.min.css?token=f5043cec08"
+		crossorigin="anonymous" onload="this.rel='stylesheet';">
+	<link async rel="preload" as="style" type="text/css"
+		href="https://ka-f.fontawesome.com/releases/v5.15.2/css/free-v4-font-face.min.css?token=f5043cec08"
+		crossorigin="anonymous" onload="this.rel='stylesheet';">
+	<link async rel="preload" as="style"
+		href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+		crossorigin="anonymous" onload="this.rel='stylesheet';">
+	<link rel="stylesheet" href="./css/style.css">
+	<style></style>
 </head>
 
 <body>
-    <!-- HEADER -->
-    <header class="container-fluid bg-dark" id="cap">
-        <div class="container py-5 py-sm-5 py-md-3">
-            <div class="row d-xl-flex justify-content-between py-0 px-0 py-sm-3 py-lg-1 px-lg-0">
-
-                <nav id="lanav"
-                    class="navbar navbar-expand-lg navbar-dark bg-transparent col-12 col-lg-11 col-xl-11 py-lg-0 m-lg-0 p-lg-0">
-
-                    <div id="brand" class="text-light col-10 col-md-11 col-lg-6 px-0 mx-0">
-                        <div id="brand-h1"><span><a href="./index.html" id="brand-logo" class="text-light"><span
-                                        id="imago">{ac}</span>
-                                    <span id="logo">alexander castelló</span>&nbsp;<span id="slash-logo"
-                                        class="d-lg-inline-block">/</span> </a>
-                                <span id="brand-tag" class="d-block d-lg-inline-block py-1">code&nbsp;& design&nbsp;&
-                                    plus</span></span></div>
-                    </div>
-
-                    <button class="navbar-toggler bg-light text-dark rounded-circle w-auto  p-0 align-self-start"
-                        data-target="#controladora" data-toggle="collapse" aria-controls="controladora"
-                        aria-expanded="false" aria-label="interruptor">
-                        <!-- <span class="navbar-toggler-icon"></span> -->
-                        <i class="las la-ellipsis-v"></i>
-                    </button>
-
-                    <div id="controladora" class="collapse navbar-collapse my-5 col-md-6 px-0 mx-0">
-                        <ul class="navbar-nav text-uppercase mx-lg-auto ">
-                            <li class="nav-item active">
-                                <a class="nav-link border-bottom" href="./index.html">Home<span
-                                        class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./how-to.html" tabindex="-1" aria-disabled="true">How to</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./resources.html" tabindex="-1"
-                                    aria-disabled="true">Resources</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./snippets.html" tabindex="-1"
-                                    aria-disabled="true">Snippets</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./about-me.html" tabindex="-1" aria-disabled="true">About
-                                    me</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-
-                <div id="loginarea" class="col-12 col-lg-1 text-right my-auto px-0">
-                    <button class="col-4 col-sm-3 col-lg-12  btn btn-sm btn-outline-light my-2" type="button"
-                        data-toggle="modal" data-target="#login">Log in</button>
-                    <button class="col-4 col-sm-3 col-lg-12 btn btn-sm btn-secondary" type="button" data-toggle="modal"
-                        data-target="#signin">Sign in</button>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- FINAL HEADER -->
-
-
-    <main>
-
-        <!-- BIG HERO -->
-        <section class="container-fluid" id="bighero">
-
-            <div class="container py-5 py-sm-5 py-md-1">
-                <div class="row py-md-5 justify-content-lg-start align-items-center">
-
-                    <div class="col-lg-6 text-shadow" id="titol">
-                        <header>
-                            <h1 class="text-white p-0 m-0 text-uppercase">Welcome</h1>
-                        </header>
-                        <p class="text-light mr-md-5 pr-md-5">An ordinary lorem but an extraordinary ipsum for the
-                            mankind dolor
-                            sit amet consectetur adipisicing elit. Rerum similique nemo dolore accusantium laudantium
-                            illo tempora facilis, voluptatem cumque laborum sequi id.</p>
-                    </div>
-
-                    <!-- SLIDER -->
-                    <div id="sliderhome" class="carousel slide col-lg-6 shadow-lg p-3 bg-light rounded"
-                        data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#sliderhome" data-slide-to="0" class="active"></li>
-                            <li data-target="#sliderhome" data-slide-to="1"></li>
-                            <li data-target="#sliderhome" data-slide-to="2"></li>
-                            <li data-target="#sliderhome" data-slide-to="4"></li>
-                        </ol>
-                        <div class="carousel-inner my-0 py-0">
-                            <div class="carousel-item active">
-                                <a href="#"><img src="./img/sl1.jpg" class="d-block w-100" alt="Slider 1"></a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#"><img src="./img/sl2.jpg" class="d-block w-100" alt="Slider 2"></a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#"><img src="./img/sl3.jpg" class="d-block w-100" alt="Slider 3"></a>
-                            </div>
-                            <div class="carousel-item">
-                                <a href="#"><img src="./img/sl4.jpg" class="d-block w-100" alt="Slider 4"></a>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#sliderhome" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#sliderhome" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                    <!-- FINAL SLIDER -->
-
-
-                </div>
-            </div>
-
-        </section>
-        <!-- FINAL BIG HERO -->
-
-        <section class="container-fluid py-md-5 bg-dark section__dark">
-            <div class="container">
-
-                    <h2 class="sectitol__h2 text-light font-weight-lighter">
-                        REDEFINED COLOR PALLETTE
-                    </h2>
-                    <p class="text-light">
-                        This colors are changed on __variables.css and has been used with its $name in SASS on style.scss.
-                    </p>
-
-
-                <div class="row justify-content-start text-light">
-
-
-
-                        <div class="card col-4 col-sm-6 col-md-2 mx-1 my-1 bg-blue">
-                            <div class="card-body">
-                                <h5 class="card-title">BLUE</h5>
-
-                            </div>
-                        </div>
-                        <div class="card col-4 col-sm-6 col-md-2 mx-1 my-1 bg-indigo">
-                            <div class="card-body">
-                                <h5 class="card-title">INDIGO</h5>
-
-                            </div>
-                        </div>
-                        <div class="card col-4 col-sm-6 col-md-2 mx-1 my-1 bg-purple">
-                            <div class="card-body">
-                                <h5 class="card-title">PURPLE</h5>
-
-                            </div>
-                        </div>
-                        <div class="card col-4 col-sm-6 col-md-2 mx-1 my-1 bg-pink">
-                            <div class="card-body">
-                                <h5 class="card-title">PINK</h5>
-
-                            </div>
-                        </div>
-                        <div class="card col-4 col-sm-6 col-md-2 mx-1 my-1 bg-red">
-                            <div class="card-body">
-                                <h5 class="card-title">RED</h5>
-
-                            </div>
-                        </div>
-                        <div class="card col-4 col-sm-6 col-md-2 mx-1 my-1 bg-orange">
-                            <div class="card-body">
-                                <h5 class="card-title">ORANGE</h5>
-
-                            </div>
-                        </div>
-                        <div class="card col-4 col-sm-6 col-md-2 mx-1 my-1 bg-yellow">
-                            <div class="card-body">
-                                <h5 class="card-title">YELLOW</h5>
-
-                            </div>
-                        </div>
-                        <div class="card col-4 col-sm-6 col-md-2 mx-1 my-1 bg-green">
-                            <div class="card-body">
-                                <h5 class="card-title">GREEN</h5>
-
-                            </div>
-                        </div>
-                        <div class="card col-4 col-sm-6 col-md-2 mx-1 my-1 bg-teal">
-                            <div class="card-body">
-                                <h5 class="card-title">TEAL</h5>
-
-                            </div>
-                        </div>
-                        <div class="card col-4 col-sm-6 col-md-2 mx-1 my-1 bg-cyan">
-                            <div class="card-body">
-                                <h5 class="card-title">CYAN</h5>
-
-                            </div>
-                        </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <!-- SECCIÓ 1 -->
-        <div class="container-fluid">
-            <section class="container px-4 py-4 py-md-5 p-md-0">
-                <div class="row align-items-start justify-content-lg-start">
-                    <div class="col-12 col-lg-6">
-                        <h2 class="sectitol__h2 text-uppercase p-0 m-0">Graphic, Web & Multimedia Design</h2>
-                        <h3 class="sectitol__h3">From ink to pixels </h3>
-                        <p>It was an evolution more than a revolution for those who we lived the transition from an old
-                            era pre-digital to now. It's not only a lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Odio praesentium minus velit eligendi,
-                            explicabo quas enim vel nulla alias blanditiis error consequatur asperiores pariatur
-                            voluptate
-                            rem laudantium reprehenderit eveniet! Quisquam iusto alias enim, in beatae et obcaecati
-                            consequatur. Vitae ipsa, est nihil nesciunt sunt corporis labore distinctio magni nisi
-                            provident!</p>
-                        <p>Ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit delectus perspiciatis,
-                            aspernatur sed saepe minima.</p>
-                    </div>
-
-                    <div class="col-12 col-lg-6">
-                        <h3 class="sectitol_h3">Then and now</h3>
-                        <p>Wherever you go ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque, laborum
-                            fugiat,
-                            molestiae dicta harum nostrum laboriosam ipsa rerum dolorem dolor impedit eligendi placeat.
-                        </p>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur nisi nobis
-                            dignissimos
-                            commodi quaerat, aut assumenda sapiente rerum. Quia similique sed repudiandae rerum
-                            expedita,
-                            libero ipsum dolorem blanditiis nihil distinctio nisi.</p>
-                        <p>Blanditiis est excepturi ipsum, ab ea fugit explicabo et ullam quasi, eius iusto eum minima
-                            nemo
-                            sapiente.</p>
-
-                        <h4 class="sectitol_h4">Bootstrap doesn't KISS.</h4>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum labore, corporis ad debitis
-                            sed
-                            repudiandae rerum expedita, libero ipsum dolorem necessitatibus excepturi, harum explicabo.
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <!-- FINAL SECCIÓ 1 -->
-
-        <!-- SECCIÓ 2 -->
-        <section class="container-fluid bg-dark text-light py-0 py-md-5 my-0">
-            <div class="container py-4">
-                <div class="row">
-                    <div class="col-12">
-                        <blockquote class="blockquote text-right">
-                            <p class="mb-0 fs-2rem">Yo sólo he venido aquí a hablar de mi libro</p>
-                            <footer class="blockquote-footer">Paco Umbral en <cite title="Source Title">la tele</cite>
-                            </footer>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- FINAL SECCIÓ 2 -->
-
-        <!-- SECCIÓ 3 -->
-        <section class="container-fluid py-md-5">
-            <div class="container p-4">
-                <div class="row">
-                    <h2 class="sectitol__h2 text-uppercase col-12 px-0">Booking for a book?</h2>
-                    <h3 class="sectitol__h5 text-uppercase col-12 px-0 mb-5">Read one of these</h3>
-                    <div class="card-group col-12 px-0">
-                        <div class="card">
-                            <img src="./img/krug.jpg" class="card-img-top" alt="card-group-image">
-                            <div class="card-body">
-                                <h5 class="card-title">Don't make me think</h5>
-                                <p class="card-text">If you think that Jakob Nielsen is hard and boring... lets discover
-                                    this book.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="./img/cleancode.jpg" class="card-img-top" alt="card-group-image">
-                            <div class="card-body">
-                                <h5 class="card-title">Clean Code</h5>
-                                <p class="card-text">I've don't readen it yet but I bet it's a very good recommendation.
-                                </p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="./img/retic.jpg" class="card-img-top" alt="card-group-image">
-                            <div class="card-body">
-                                <h5 class="card-title">Design with and without grid</h5>
-                                <p class="card-text">One of the best layout design's book with the best recipes.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- FINAL SECCIÓ 3 -->
-
-    </main>
-
-
-
-
-
-
-
-
-
-
-    <section id="modals">
-
-        <!-- MODALS  -->
-        <!-- MODAL LOGIN -->
-        <div class="modal" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header bg-success text-light">
-                        <h5 class="modal-title" id="exampleModalCenteredLabel">Login</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-
-                        <form>
-                            <div class="form-group">
-                                <label for="formGroupExampleInput9"><i class="lar la-user"></i> User</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput9"
-                                    placeholder="Example input">
-                            </div>
-                            <div class="form-group">
-                                <label for="formGroupExampleInput10"><i class="las la-key"></i> Password</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput10"
-                                    placeholder="Another input">
-                            </div>
-
-                            <div class="form-check">
-                                <input class="form-check-input" type="password" id="check2">
-                                <label class="form-check-label" for="check2">
-                                    Remember me
-                                </label>
-                            </div>
-                        </form>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Send</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- MODAL SIGNIN -->
-        <div class="modal" id="signin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header bg-warning">
-                        <h5 class="modal-title" id="exampleModalCenteredLabel">Sign in</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-
-                        <form>
-                            <div class="form-group">
-                                <label for="formGroupExampleInput6"><i class="lar la-user"></i> User</label>
-                                <input type="text" class="form-control" id="formGroupExampleInput6"
-                                    placeholder="Example input">
-                            </div>
-                            <div class="form-group">
-                                <label for="formGroupExampleInput7"><i class="las la-key"></i> Password</label>
-                                <input type="password" class="form-control" id="formGroupExampleInput7"
-                                    placeholder="Password">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="formGroupExampleInput8"><i class="la la-key"></i> Verify password</label>
-                                <input type="passwordverif" class="form-control" id="formGroupExampleInput8"
-                                    placeholder="Password verification">
-                            </div>
-
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" id="check">
-                                <label class="form-check-label" for="check">
-                                    Do you agree with terms? <a href="#" data-toggle="modal"
-                                        data-target="#conditions">View
-                                        conditions</a>
-                                </label>
-                            </div>
-                        </form>
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Send</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- MODAL CONDICIONS -->
-        <div class="modal" id="conditions" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-scrollable" role="document">
-                <div class="modal-content">
-                    <div class="modal-header bg-danger text-light">
-                        <h5 class="modal-title" id="exampleModalCenteredLabel">Conditions</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <ol>
-                            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta quidem nobis ad
-                                aspernatur,
-                                laboriosam
-                                hic consequatur vitae provident molestiae consectetur in! Corporis expedita et
-                                blanditiis.
-                                Tempore labore
-                                magnam exercitationem facere reiciendis id neque pariatur! Distinctio saepe fugit modi,
-                                impedit quos
-                                assumenda eaque libero possimus hic?</li>
-                            <li>Adipisci earum temporibus corrupti explicabo error quis. Eligendi accusamus laudantium
-                                iusto
-                                at, sequi
-                                fugit perspiciatis quam nisi harum dicta laborum ratione! Laboriosam voluptatem
-                                recusandae a
-                                quas natus in
-                                nostrum error! Doloribus illo facilis voluptatem quam. Natus praesentium esse atque
-                                voluptatum itaque
-                                asperiores et nobis repellat!</li>
-                            <li>Consequatur excepturi quae voluptatum, nulla accusantium ratione consectetur optio
-                                repellat
-                                necessitatibus nesciunt nihil incidunt voluptate labore voluptatem recusandae, modi est.
-                                Voluptatibus
-                                dicta excepturi, maiores sed modi consequuntur ad porro quidem nostrum. Nobis et vero id
-                                sed. Dicta,
-                                quidem corporis minima labore numquam vitae ipsa maxime.</li>
-                            <li>Voluptates nam molestias nihil eaque sint eveniet consectetur saepe dolore autem
-                                ducimus.
-                                Aperiam atque
-                                neque, corrupti quas blanditiis perferendis id aliquam ea quis ex non molestiae magni,
-                                sapiente,
-                                consequuntur quam. Qui optio eaque quibusdam adipisci, alias culpa enim natus
-                                consequuntur
-                                nisi vel est
-                                nulla illo?</li>
-                            <li>Rerum, ab! Fugiat commodi fuga illum nesciunt earum, molestias quam corrupti tempore
-                                esse
-                                nemo aut
-                                aspernatur corporis mollitia recusandae sapiente vero! Voluptates, deleniti. A magnam
-                                eaque
-                                pariatur
-                                assumenda, nobis animi reiciendis vero tempora. Sunt exercitationem quaerat quasi totam
-                                veritatis error
-                                sed omnis, obcaecati ullam molestiae.</li>
-                            <li>Omnis voluptatem optio vero voluptates nesciunt a ea sed esse velit quas repudiandae
-                                totam
-                                quasi
-                                explicabo magni doloremque numquam quo eligendi consequuntur pariatur, sapiente
-                                molestiae
-                                similique sunt
-                                commodi ipsum? Quod esse maiores, dolorem cum laborum fugiat quasi sapiente
-                                exercitationem
-                                ea optio
-                                doloribus, accusantium perferendis possimus.</li>
-                            <li>Voluptatum, sapiente fugiat? Labore ex sint optio officia pariatur non, repellat
-                                excepturi
-                                quaerat eaque
-                                autem maxime quis corrupti vitae minima id sit vero voluptatem ipsam. Sapiente,
-                                voluptatibus. Fuga sit
-                                sint odio dolorem adipisci corporis debitis nisi odit, aspernatur blanditiis sed
-                                praesentium
-                                et fugiat
-                                earum voluptas!</li>
-                            <li>In suscipit commodi labore! Aperiam aut error obcaecati accusantium consequuntur dicta
-                                commodi quas
-                                earum! Corporis rerum quaerat deleniti nihil assumenda voluptates quis dolor eligendi
-                                eveniet! Quae minus
-                                sapiente quidem velit necessitatibus aliquid repellat suscipit sit sed tempora
-                                temporibus,
-                                dolorum, illo
-                                dignissimos eos praesentium nemo assumenda!</li>
-                            <li>Repellat ipsum voluptatibus excepturi qui tempore fuga reprehenderit minima neque labore
-                                autem optio,
-                                consectetur expedita officia facilis rerum harum ullam esse illo unde perspiciatis. Quo
-                                fugit corporis,
-                                praesentium voluptatem quisquam, reiciendis magnam ut earum voluptatibus repellat soluta
-                                eligendi
-                                repudiandae cum vel libero nemo aperiam ipsum.</li>
-                            <li>Dolorum totam quibusdam laboriosam aut doloremque quae dignissimos dicta aliquid
-                                expedita
-                                voluptatem,
-                                ipsam unde alias nostrum, modi voluptatibus incidunt officiis corporis repellendus.
-                                Adipisci
-                                porro veniam
-                                nesciunt. Amet quaerat reiciendis, laborum corporis asperiores cum eveniet similique
-                                esse
-                                id, voluptates
-                                expedita. Illum reiciendis eaque quaerat officiis veniam?</li>
-                            <li>Animi at tempore natus quaerat, eos ea beatae consectetur praesentium vitae! Dolor neque
-                                consequatur eum
-                                aliquid id, provident, maxime delectus non modi aut alias incidunt ullam laudantium
-                                labore
-                                temporibus
-                                deleniti quod repellendus similique? Ducimus aperiam earum non, dicta laborum nihil
-                                voluptates molestias
-                                maiores asperiores dolores?</li>
-                            <li>Quidem aspernatur dicta assumenda numquam sed dolor corrupti, reiciendis sit fuga id ea
-                                facere quod vel
-                                nisi molestiae dolorum? Eius cumque repudiandae asperiores atque voluptatibus ipsa nulla
-                                necessitatibus
-                                omnis sed animi delectus molestiae recusandae quod aut mollitia quos dicta quae iure ab
-                                ratione, quas rem!
-                            </li>
-                            <li>Quaerat, vero itaque! Et maiores excepturi quos inventore quia expedita qui dolore
-                                nostrum
-                                odio
-                                similique doloremque illo ab, molestiae maxime, eos accusantium dolorem perspiciatis
-                                officiis placeat
-                                consectetur? Ipsa perspiciatis, aliquam minima quam sed provident dolorum corrupti omnis
-                                nemo veritatis
-                                quos minus unde ullam fuga asperiores.</li>
-                            <li>Ducimus iure recusandae unde maxime temporibus cupiditate similique fugiat officiis in
-                                asperiores
-                                distinctio, doloribus id hic quos? Numquam nihil obcaecati dolorum, et voluptas pariatur
-                                illo commodi
-                                debitis perferendis similique consequuntur enim veniam quasi cupiditate culpa
-                                perspiciatis,
-                                excepturi ea
-                                dolores fugit, recusandae repudiandae in harum. Vero.</li>
-                        </ol>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- FINAL DELS MODALS -->
-
-    </section>
-
-
-
-    <footer class="container-fluid bg-dark text-light py-5">
-        <section class="container py-1">
-
-            <div class="row text-center text-xs-center text-sm-left text-md-left">
-                <div class="col-xs-12 col-sm-3">
-                    <h5>Sitemap</h5>
-                    <ul class="list-unstyled quick-links">
-                        <li><a href="./index.html"><i class="fa fa-angle-double-right"></i> Home</a></li>
-                        <li><a href="./how-to.html"><i class="fa fa-angle-double-right"></i> How to</a></li>
-                        <li><a href="./resources.html"><i class="fa fa-angle-double-right"></i> Resources</a></li>
-                        <li><a href="./snippets.html"><i class="fa fa-angle-double-right"></i> Snippets</a></li>
-                        <li><a href="./about-me.html"><i class="fa fa-angle-double-right"></i> About me</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-xs-12 col-sm-4 text-secondary">
-                    <h5 class="text-white">Do you like cookies?</h5>
-                    <p>I hope so. This is a disclaimer. By using this site you agree with our cookies. Otherwise don't
-                        keep being here.</p>
-
-                    <ul class="list-unstyled list-inline social mt-5">
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                    </ul>
-                </div>
-
-
-
-
-
-
-                <!-- /// -->
-
-            </div>
-        </section>
-
-        <section class="container">
-            <div class="row">
-                <div class="col-12 fs-09rem mt-2 footer__copy">© All right Reversed. {ac} alexander castelló </div>
-            </div>
-        </section>
-
-
-
-    </footer>
-
-
-
-
-
-    <!-- / / / / / / / / / / / / / / / / NO TRASPASSAR / / / / / / / / / / / / / / / / / / / / / / / / / / / / / / -->
-
-    <!-- DEPENDÈNCIES DE JAVASCRIPT -->
-
-    <!-- jquery -->
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
-    <script src="./js/jquery-3.5.1.slim.min.js"></script>
-
-    <!-- popper -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-    <script src="./js/popper.min.js"></script>
-
-    <!-- bootstrap -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
-    <script src="./js/bootstrap.min.js"></script>
+	<header class="container-fluid bg-dark" id="cap">
+		<div class="container py-5 py-sm-5 py-md-3">
+			<div class="row d-xl-flex justify-content-between py-0 px-0 py-sm-3 py-lg-1 px-lg-0">
+				<nav id="lanav"
+					class="navbar navbar-expand-lg navbar-dark bg-transparent col-12 col-lg-11 col-xl-11 py-lg-0 m-lg-0 p-lg-0">
+					<div id="brand" class="text-light col-10 col-md-11 col-lg-6 px-0 mx-0">
+						<div id="brand-h1"><span><a href="./index.html" id="brand-logo" class="text-light"><span
+										id="imago">{ac}</span> <span id="logo">alexander castelló</span>&nbsp;<span
+										id="slash-logo" class="d-lg-inline-block">/</span></a><span id="brand-tag"
+									class="d-block d-lg-inline-block py-1">code&nbsp;& design&nbsp;& plus</span></span>
+						</div>
+					</div><button class="navbar-toggler bg-light text-dark rounded-circle w-auto p-0 align-self-start"
+						data-target="#controladora" data-toggle="collapse" aria-controls="controladora"
+						aria-expanded="false" aria-label="interruptor"><i class="las la-ellipsis-v"></i></button>
+					<div id="controladora" class="collapse navbar-collapse my-5 col-md-6 px-0 mx-0">
+						<ul class="navbar-nav text-uppercase mx-lg-auto ">
+							<li class="nav-item active"><a class="nav-link border-bottom" href="./index.html">Home<span
+										class="sr-only">(current)</span></a></li>
+							<li class="nav-item"><a class="nav-link" href="./how-to.html" tabindex="-1"
+									aria-disabled="true">How
+									to</a></li>
+							<li class="nav-item"><a class="nav-link" href="./resources.html" tabindex="-1"
+									aria-disabled="true">Resources</a></li>
+							<li class="nav-item"><a class="nav-link" href="./snippets.html" tabindex="-1"
+									aria-disabled="true">Snippets</a></li>
+							<li class="nav-item"><a class="nav-link" href="./about-me.html" tabindex="-1"
+									aria-disabled="true">About
+									me</a></li>
+						</ul>
+					</div>
+				</nav>
+				<div id="loginarea" class="col-12 col-lg-1 text-right my-auto px-0"><button
+						class="col-4 col-sm-3 col-lg-12 btn btn-sm btn-outline-light my-2" type="button"
+						data-toggle="modal" data-target="#login">Log in</button><button
+						class="col-4 col-sm-3 col-lg-12 btn btn-sm btn-secondary" type="button" data-toggle="modal"
+						data-target="#signin">Sign in</button></div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="container-fluid" id="bighero">
+			<div class="container py-5 py-sm-5 py-md-1">
+				<div class="row py-md-5 justify-content-lg-start align-items-center">
+					<div class="col-lg-6 text-shadow" id="titol">
+						<header>
+							<h1 class="text-white p-0 m-0 text-uppercase">Welcome</h1>
+						</header>
+						<p class="text-light mr-md-5 pr-md-5">An ordinary lorem but an extraordinary ipsum for the
+							mankind dolor sit amet consectetur adipisicing elit. Rerum similique nemo dolore accusantium
+							laudantium illo tempora facilis, voluptatem cumque laborum sequi id.</p>
+					</div>
+					<div id="sliderhome" class="carousel slide col-lg-6 shadow-lg p-3 bg-light rounded"
+						data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#sliderhome" data-slide-to="0" class="active"></li>
+							<li data-target="#sliderhome" data-slide-to="1"></li>
+							<li data-target="#sliderhome" data-slide-to="2"></li>
+							<li data-target="#sliderhome" data-slide-to="4"></li>
+						</ol>
+						<div class="carousel-inner my-0 py-0">
+							<div class="carousel-item active"><a href="#"><img src="./img/sl1.jpg" class="d-block w-100"
+										alt="Slider 1"></a></div>
+							<div class="carousel-item"><a href="#"><img src="./img/sl2.jpg" class="d-block w-100"
+										alt="Slider 2"></a>
+							</div>
+							<div class="carousel-item"><a href="#"><img src="./img/sl3.jpg" class="d-block w-100"
+										alt="Slider 3"></a>
+							</div>
+							<div class="carousel-item"><a href="#"><img src="./img/sl4.jpg" class="d-block w-100"
+										alt="Slider 4"></a>
+							</div>
+						</div><a class="carousel-control-prev" href="#sliderhome" role="button" data-slide="prev"><span
+								class="carousel-control-prev-icon" aria-hidden="true"></span><span
+								class="sr-only">Previous</span></a><a class="carousel-control-next" href="#sliderhome"
+							role="button" data-slide="next"><span class="carousel-control-next-icon"
+								aria-hidden="true"></span><span class="sr-only">Next</span></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+		<section class="container px-4 py-4 py-md-5 p-md-0">
+			<div class="container-fluid">
+				<div class="row align-items-start justify-content-lg-start">
+					<div class="col-12 col-lg-6">
+						<h2 class="sectitol__h2 text-uppercase p-0 m-0">Graphic, Web & Multimedia Design</h2>
+						<h3 class="sectitol__h3">From ink to pixels </h3>
+						<p>It was an evolution more than a revolution for those who we lived the transition from an old
+							era pre-digital to now. It's not only a lorem ipsum, dolor sit amet consectetur adipisicing
+							elit. Odio praesentium minus velit eligendi, explicabo quas enim vel nulla alias blanditiis
+							error consequatur asperiores pariatur voluptate rem laudantium reprehenderit eveniet!
+							Quisquam iusto alias enim, in beatae et obcaecati consequatur. Vitae ipsa, est nihil
+							nesciunt sunt corporis labore distinctio magni nisi provident!</p>
+						<p>Ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit delectus perspiciatis,
+							aspernatur sed saepe minima.</p>
+					</div>
+					<div class="col-12 col-lg-6">
+						<h3 class="sectitol_h3">Then and now</h3>
+						<p>Wherever you go ipsum dolor sit amet consectetur adipisicing elit. Eveniet neque, laborum
+							fugiat, molestiae dicta harum nostrum laboriosam ipsa rerum dolorem dolor impedit eligendi
+							placeat. </p>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo aspernatur nisi nobis
+							dignissimos commodi quaerat, aut assumenda sapiente rerum. Quia similique sed repudiandae
+							rerum expedita, libero ipsum dolorem blanditiis nihil distinctio nisi.</p>
+						<p>Blanditiis est excepturi ipsum, ab ea fugit explicabo et ullam quasi, eius iusto eum minima
+							nemo sapiente.</p>
+						<h4 class="sectitol_h4">Bootstrap doesn't KISS.</h4>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum labore, corporis ad debitis
+							sed repudiandae rerum expedita, libero ipsum dolorem necessitatibus excepturi, harum
+							explicabo. </p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section class="container-fluid bg-dark text-light py-0 py-md-5 my-0">
+			<div class="container py-4">
+				<div class="row">
+					<div class="col-12">
+						<blockquote class="blockquote text-right">
+							<p class="mb-0 fs-2rem">Yo sólo he venido aquí a hablar de mi libro</p>
+							<footer class="blockquote-footer">Paco Umbral en <cite title="Source Title">la tele</cite>
+							</footer>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid py-md-5">
+			<div class="container p-4">
+				<div class="row">
+					<h2 class="sectitol__h2 text-uppercase col-12 px-0">Booking for a book?</h2>
+					<h3 class="sectitol__h5 text-uppercase col-12 px-0 mb-5">Read one of these</h3>
+					<div class="card-group col-12 px-0">
+						<div class="card"><img src="./img/krug.jpg" class="card-img-top" alt="card-group-image">
+							<div class="card-body">
+								<h5 class="card-title">Don't make me think</h5>
+								<p class="card-text">If you think that Jakob Nielsen is hard and boring... lets discover
+									this book.</p>
+							</div>
+							<div class="card-footer"><small class="text-muted">Last updated 3 mins ago</small></div>
+						</div>
+						<div class="card"><img src="./img/cleancode.jpg" class="card-img-top" alt="card-group-image">
+							<div class="card-body">
+								<h5 class="card-title">Clean Code</h5>
+								<p class="card-text">I've don't readen it yet but I bet it's a very good recommendation.
+								</p>
+							</div>
+							<div class="card-footer"><small class="text-muted">Last updated 3 mins ago</small></div>
+						</div>
+						<div class="card"><img src="./img/retic.jpg" class="card-img-top" alt="card-group-image">
+							<div class="card-body">
+								<h5 class="card-title">Design with and without grid</h5>
+								<p class="card-text">One of the best layout design's book with the best recipes.</p>
+							</div>
+							<div class="card-footer"><small class="text-muted">Last updated 3 mins ago</small></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<section id="modals">
+		<div class="modal" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header bg-success text-light">
+						<h5 class="modal-title" id="exampleModalCenteredLabel">Login</h5><button type="button"
+							class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group"><label for="formGroupExampleInput9"><i
+										class="lar la-user"></i>User</label><input type="text" class="form-control"
+									id="formGroupExampleInput9" placeholder="Example input"></div>
+							<div class="form-group"><label for="formGroupExampleInput10"><i
+										class="las la-key"></i>Password</label><input type="text" class="form-control"
+									id="formGroupExampleInput10" placeholder="Another input"></div>
+							<div class="form-check"><input class="form-check-input" type="password" id="check2"><label
+									class="form-check-label" for="check2">Remember me </label></div>
+						</form>
+					</div>
+					<div class="modal-footer"><button type="button" class="btn btn-secondary"
+							data-dismiss="modal">Close</button><button type="button"
+							class="btn btn-primary">Send</button></div>
+				</div>
+			</div>
+		</div>
+		<div class="modal" id="signin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header bg-warning">
+						<h5 class="modal-title" id="exampleModalCenteredLabel">Sign in</h5><button type="button"
+							class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body">
+						<form>
+							<div class="form-group"><label for="formGroupExampleInput6"><i
+										class="lar la-user"></i>User</label><input type="text" class="form-control"
+									id="formGroupExampleInput6" placeholder="Example input"></div>
+							<div class="form-group"><label for="formGroupExampleInput7"><i
+										class="las la-key"></i>Password</label><input type="password"
+									class="form-control" id="formGroupExampleInput7" placeholder="Password"></div>
+							<div class="form-group"><label for="formGroupExampleInput8"><i class="la la-key"></i>Verify
+									password</label><input type="passwordverif" class="form-control"
+									id="formGroupExampleInput8" placeholder="Password verification"></div>
+							<div class="form-check"><input class="form-check-input" type="checkbox" id="check"><label
+									class="form-check-label" for="check">Do you agree with terms? <a href="#"
+										data-toggle="modal" data-target="#conditions">View conditions</a></label></div>
+						</form>
+					</div>
+					<div class="modal-footer"><button type="button" class="btn btn-secondary"
+							data-dismiss="modal">Close</button><button type="button"
+							class="btn btn-primary">Send</button></div>
+				</div>
+			</div>
+		</div>
+		<div class="modal" id="conditions" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-scrollable" role="document">
+				<div class="modal-content">
+					<div class="modal-header bg-danger text-light">
+						<h5 class="modal-title" id="exampleModalCenteredLabel">Conditions</h5><button type="button"
+							class="close" data-dismiss="modal" aria-label="Close"><span
+								aria-hidden="true">&times;</span></button>
+					</div>
+					<div class="modal-body">
+						<ol>
+							<li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta quidem nobis ad
+								aspernatur, laboriosam hic consequatur vitae provident molestiae consectetur in!
+								Corporis expedita et blanditiis. Tempore labore magnam exercitationem facere reiciendis
+								id neque pariatur! Distinctio saepe fugit modi, impedit quos assumenda eaque libero
+								possimus hic?</li>
+							<li>Adipisci earum temporibus corrupti explicabo error quis. Eligendi accusamus laudantium
+								iusto at, sequi fugit perspiciatis quam nisi harum dicta laborum ratione! Laboriosam
+								voluptatem recusandae a quas natus in nostrum error! Doloribus illo facilis voluptatem
+								quam. Natus praesentium esse atque voluptatum itaque asperiores et nobis repellat!</li>
+							<li>Consequatur excepturi quae voluptatum, nulla accusantium ratione consectetur optio
+								repellat necessitatibus nesciunt nihil incidunt voluptate labore voluptatem recusandae,
+								modi est. Voluptatibus dicta excepturi, maiores sed modi consequuntur ad porro quidem
+								nostrum. Nobis et vero id sed. Dicta, quidem corporis minima labore numquam vitae ipsa
+								maxime.</li>
+							<li>Voluptates nam molestias nihil eaque sint eveniet consectetur saepe dolore autem
+								ducimus. Aperiam atque neque, corrupti quas blanditiis perferendis id aliquam ea quis ex
+								non molestiae magni, sapiente, consequuntur quam. Qui optio eaque quibusdam adipisci,
+								alias culpa enim natus consequuntur nisi vel est nulla illo?</li>
+							<li>Rerum, ab! Fugiat commodi fuga illum nesciunt earum, molestias quam corrupti tempore
+								esse nemo aut aspernatur corporis mollitia recusandae sapiente vero! Voluptates,
+								deleniti. A magnam eaque pariatur assumenda, nobis animi reiciendis vero tempora. Sunt
+								exercitationem quaerat quasi totam veritatis error sed omnis, obcaecati ullam molestiae.
+							</li>
+							<li>Omnis voluptatem optio vero voluptates nesciunt a ea sed esse velit quas repudiandae
+								totam quasi explicabo magni doloremque numquam quo eligendi consequuntur pariatur,
+								sapiente molestiae similique sunt commodi ipsum? Quod esse maiores, dolorem cum laborum
+								fugiat quasi sapiente exercitationem ea optio doloribus, accusantium perferendis
+								possimus.</li>
+							<li>Voluptatum, sapiente fugiat? Labore ex sint optio officia pariatur non, repellat
+								excepturi quaerat eaque autem maxime quis corrupti vitae minima id sit vero voluptatem
+								ipsam. Sapiente, voluptatibus. Fuga sit sint odio dolorem adipisci corporis debitis nisi
+								odit, aspernatur blanditiis sed praesentium et fugiat earum voluptas!</li>
+							<li>In suscipit commodi labore! Aperiam aut error obcaecati accusantium consequuntur dicta
+								commodi quas earum! Corporis rerum quaerat deleniti nihil assumenda voluptates quis
+								dolor eligendi eveniet! Quae minus sapiente quidem velit necessitatibus aliquid repellat
+								suscipit sit sed tempora temporibus, dolorum, illo dignissimos eos praesentium nemo
+								assumenda!</li>
+							<li>Repellat ipsum voluptatibus excepturi qui tempore fuga reprehenderit minima neque labore
+								autem optio, consectetur expedita officia facilis rerum harum ullam esse illo unde
+								perspiciatis. Quo fugit corporis, praesentium voluptatem quisquam, reiciendis magnam ut
+								earum voluptatibus repellat soluta eligendi repudiandae cum vel libero nemo aperiam
+								ipsum.</li>
+							<li>Dolorum totam quibusdam laboriosam aut doloremque quae dignissimos dicta aliquid
+								expedita voluptatem, ipsam unde alias nostrum, modi voluptatibus incidunt officiis
+								corporis repellendus. Adipisci porro veniam nesciunt. Amet quaerat reiciendis, laborum
+								corporis asperiores cum eveniet similique esse id, voluptates expedita. Illum reiciendis
+								eaque quaerat officiis veniam?</li>
+							<li>Animi at tempore natus quaerat, eos ea beatae consectetur praesentium vitae! Dolor neque
+								consequatur eum aliquid id, provident, maxime delectus non modi aut alias incidunt ullam
+								laudantium labore temporibus deleniti quod repellendus similique? Ducimus aperiam earum
+								non, dicta laborum nihil voluptates molestias maiores asperiores dolores?</li>
+							<li>Quidem aspernatur dicta assumenda numquam sed dolor corrupti, reiciendis sit fuga id ea
+								facere quod vel nisi molestiae dolorum? Eius cumque repudiandae asperiores atque
+								voluptatibus ipsa nulla necessitatibus omnis sed animi delectus molestiae recusandae
+								quod aut mollitia quos dicta quae iure ab ratione, quas rem! </li>
+							<li>Quaerat, vero itaque! Et maiores excepturi quos inventore quia expedita qui dolore
+								nostrum odio similique doloremque illo ab, molestiae maxime, eos accusantium dolorem
+								perspiciatis officiis placeat consectetur? Ipsa perspiciatis, aliquam minima quam sed
+								provident dolorum corrupti omnis nemo veritatis quos minus unde ullam fuga asperiores.
+							</li>
+							<li>Ducimus iure recusandae unde maxime temporibus cupiditate similique fugiat officiis in
+								asperiores distinctio, doloribus id hic quos? Numquam nihil obcaecati dolorum, et
+								voluptas pariatur illo commodi debitis perferendis similique consequuntur enim veniam
+								quasi cupiditate culpa perspiciatis, excepturi ea dolores fugit, recusandae repudiandae
+								in harum. Vero.</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="container-fluid bg-dark text-light py-5">
+		<section class="container py-1">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-xs-12 col-sm-3">
+					<h5>Sitemap</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="./index.html"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="./how-to.html"><i class="fa fa-angle-double-right"></i>How to</a></li>
+						<li><a href="./resources.html"><i class="fa fa-angle-double-right"></i>Resources</a></li>
+						<li><a href="./snippets.html"><i class="fa fa-angle-double-right"></i>Snippets</a></li>
+						<li><a href="./about-me.html"><i class="fa fa-angle-double-right"></i>About me</a></li>
+					</ul>
+				</div>
+				<div class="col-xs-12 col-sm-4 text-secondary">
+					<h5 class="text-white">Do you like cookies?</h5>
+					<p>I hope so. This is a disclaimer. By using this site you agree with our cookies. Otherwise don't
+						keep being here.</p>
+					<ul class="list-unstyled list-inline social mt-5">
+						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="container">
+			<div class="row">
+				<div class="col-12 fs-09rem mt-2 footer__copy">© All right Reversed.{ac} alexander castelló </div>
+			</div>
+		</section>
+	</footer>
+	<script src="./js/jquery-3.5.1.slim.min.js"></script>
+	<script src="./js/popper.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>
