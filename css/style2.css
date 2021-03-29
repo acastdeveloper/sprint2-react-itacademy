@@ -10140,6 +10140,11 @@ body {
     background-position: 0% 50%;
   }
 }
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 #bighero h1 {
   letter-spacing: 0.2rem;
   font-size: 5rem;
@@ -10252,4 +10257,4 @@ footer a:hover {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style2.css.map */

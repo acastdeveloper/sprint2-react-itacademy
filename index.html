@@ -48,45 +48,67 @@
 </head>
 
 <body>
+
+	<!-- HEADER -->
 	<header class="container-fluid bg-dark" id="cap">
-		<div class="container py-5 py-sm-5 py-md-3">
-			<div class="row d-xl-flex justify-content-between py-0 px-0 py-sm-3 py-lg-1 px-lg-0">
-				<nav id="lanav"
-					class="navbar navbar-expand-lg navbar-dark bg-transparent col-12 col-lg-11 col-xl-11 py-lg-0 m-lg-0 p-lg-0">
-					<div id="brand" class="text-light col-10 col-md-11 col-lg-6 px-0 mx-0">
-						<div id="brand-h1"><span><a href="./index.html" id="brand-logo" class="text-light"><span
-										id="imago">{ac}</span> <span id="logo">alexander castelló</span>&nbsp;<span
-										id="slash-logo" class="d-lg-inline-block">/</span></a><span id="brand-tag"
-									class="d-block d-lg-inline-block py-1">code&nbsp;& design&nbsp;& plus</span></span>
-						</div>
-					</div><button class="navbar-toggler bg-light text-dark rounded-circle w-auto p-0 align-self-start"
+		<div class="container">
+			<div class="row d-xl-flex justify-content-between py-3 ">
+				<nav id="lanav" class="navbar navbar-expand-lg navbar-dark bg-transparent col-xs-12 col-sm-12 col-md-9 col-lg-10">
+					<div id="brand" class="text-light col-10 col-lg-auto m-0 p-0">
+						<a href="./index.html" id="brand-logo" class="text-light"><span id="imago">{ac}</span>
+							<span id="logo">alexander castelló</span></a>
+					</div>
+
+					<button class="navbar-toggler bg-light text-dark rounded-circle align-self-start p-0 m-0 my-sm-auto col-auto"
 						data-target="#controladora" data-toggle="collapse" aria-controls="controladora"
-						aria-expanded="false" aria-label="interruptor"><i class="las la-ellipsis-v"></i></button>
-					<div id="controladora" class="collapse navbar-collapse my-5 col-md-6 px-0 mx-0">
-						<ul class="navbar-nav text-uppercase mx-lg-auto ">
-							<li class="nav-item active"><a class="nav-link border-bottom" href="./index.html">Home<span
-										class="sr-only">(current)</span></a></li>
-							<li class="nav-item"><a class="nav-link" href="./how-to.html" tabindex="-1"
-									aria-disabled="true">How
-									to</a></li>
-							<li class="nav-item"><a class="nav-link" href="./resources.html" tabindex="-1"
-									aria-disabled="true">Resources</a></li>
-							<li class="nav-item"><a class="nav-link" href="./snippets.html" tabindex="-1"
-									aria-disabled="true">Snippets</a></li>
-							<li class="nav-item"><a class="nav-link" href="./about-me.html" tabindex="-1"
-									aria-disabled="true">About
-									me</a></li>
+						aria-expanded="false" aria-label="interruptor">
+						<!-- <span class="navbar-toggler-icon"></span> -->
+						<i class="las la-ellipsis-v"></i>
+					</button>
+
+
+					<div id="controladora" class="collapse navbar-collapse">
+						<ul class="navbar-nav text-uppercase mx-auto">
+
+							<li class="nav-item active">
+								<a class="nav-link border-bottom" href="./index.html" tabindex="-1"
+									aria-disabled="true">Index<span class="sr-only">(current)</span></a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="./how-to.html" tabindex="-1">How to</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="./resources.html" tabindex="-1" aria-disabled="true">Resources</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="./snippets.html" tabindex="-1" aria-disabled="true">Snippets</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="./about-me.html" tabindex="-1" aria-disabled="true">About
+									me</a>
+							</li>
 						</ul>
 					</div>
 				</nav>
-				<div id="loginarea" class="col-12 col-lg-1 text-right my-auto px-0"><button
-						class="col-4 col-sm-3 col-lg-12 btn btn-sm btn-outline-light my-2" type="button"
-						data-toggle="modal" data-target="#login">Log in</button><button
-						class="col-4 col-sm-3 col-lg-12 btn btn-sm btn-secondary" type="button" data-toggle="modal"
-						data-target="#signin">Sign in</button></div>
+
+				<div id="loginarea" class="col-12 col-sm-auto col-md-auto my-auto py-3 py-sm-0">
+					<button class="btn btn-sm btn-outline-light" type="button" data-toggle="modal"
+						data-target="#login">
+						Log in
+					</button>
+					<button class="btn btn-sm btn-secondary" type="button" data-toggle="modal" data-target="#signin">
+						Sign in
+					</button>
+				</div>
 			</div>
 		</div>
 	</header>
+	<!-- FINAL HEADER -->
+
+
 	<main>
 		<section class="container-fluid" id="bighero">
 			<div class="container py-5 py-sm-5 py-md-1">
